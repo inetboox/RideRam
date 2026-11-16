@@ -1,0 +1,113 @@
+{
+  "sources": 4,
+  "uniqueDumps": 1,
+  "sha256": "d05c877d1e65b1dfd1b7e6a96ec93b051ae8e483c9d515988841dff88bbf83ba",
+  "models": 381,
+  "brands": 77,
+  "dealers": 1,
+  "offers": 1,
+  "categories": 5,
+  "withValidSpecs": 254,
+  "withDescription": 260,
+  "unclassifiedModels": 115,
+  "withoutBrand": 119,
+  "noSpecs": 127,
+  "issues": [
+    {
+      "modelId": 38,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 38,
+      "field": "model_desc",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 53,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 53,
+      "field": "model_desc",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 69,
+      "field": "model_specs",
+      "reason": "Expecting ',' delimiter: line 1 column 414 (char 413)"
+    },
+    {
+      "modelId": 75,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 75,
+      "field": "model_desc",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 76,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 76,
+      "field": "model_desc",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 100,
+      "field": "model_specs",
+      "reason": "Unterminated string starting at: line 1 column 490 (char 489)"
+    },
+    {
+      "modelId": 130,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 284,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 335,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 335,
+      "field": "model_desc",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 336,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 336,
+      "field": "model_desc",
+      "reason": "служебное сообщение парсера вместо данных"
+    },
+    {
+      "modelId": 341,
+      "field": "model_specs",
+      "reason": "Unterminated string starting at: line 1 column 1725 (char 1724)"
+    },
+    {
+      "modelId": 382,
+      "field": "model_specs",
+      "reason": "служебное сообщение парсера вместо данных"
+    }
+  ],
+  "notImported": [
+    "access (устаревшие учётные данные)",
+    "diler_password (открытый пароль)",
+    "news (4 записи; не публикуются без редакторской проверки)"
+  ],
+  "photos": "В схеме дампа нет полей фотографий; изображения моделей не выдуманы. Показаны условные SVG-иллюстрации."
+}

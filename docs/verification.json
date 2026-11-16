@@ -1,0 +1,31 @@
+{
+  "build": {
+    "exit": 0,
+    "stdout": "\n> rideram-marketplace@0.1.0 build\n> vite build\n\nvite v6.3.5 building for production...\ntransforming...\n✓ 39 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.73 kB │ gzip:  0.48 kB\ndist/assets/index-ZVTETJ7r.css   18.83 kB │ gzip:  4.89 kB\ndist/assets/index-bdDfv5ka.js   269.09 kB │ gzip: 84.20 kB\n✓ built in 1.20s\n",
+    "stderr": ""
+  },
+  "test": {
+    "exit": 0,
+    "stdout": "\n> rideram-marketplace@0.1.0 test\n> node --test tests/*.test.mjs\n\nTAP version 13\n# (node:464) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n# (Use `node --trace-warnings ...` to show where the warning was created)\n# Первый запуск: dealer\n# Логин: dealer@rideram.local\n# Пароль: задан в окружении\n# Первый запуск: admin\n# Логин: admin@rideram.local\n# Пароль: задан в окружении\n# Subtest: Каталог, сессии, права дилера, предложения, заявки, модерация и сохранение SQLite\nok 1 - Каталог, сессии, права дилера, предложения, заявки, модерация и сохранение SQLite\n  ---\n  duration_ms: 846.100615\n  type: 'test'\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 1\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 970.632103\n",
+    "stderr": ""
+  },
+  "production": {
+    "home": 200,
+    "catalogDeepLink": 200,
+    "health": 200,
+    "models": 200,
+    "importedModels": 381,
+    "builtJs": 200,
+    "status": "passed"
+  },
+  "development": {
+    "home": 200,
+    "catalogDeepLink": 200,
+    "health": 200,
+    "models": 200,
+    "importedModels": 381,
+    "reactModule": 200,
+    "status": "passed"
+  },
+  "browser": "Визуальная и интерактивная проверка в браузере не выполнялась. Проверены сборка, интеграционный API-тест и HTTP-запуск dev/production."
+}
